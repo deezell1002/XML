@@ -1,0 +1,32 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <body>
+  <xml id="student" src="./student.xml">
+  </xml>
+  ข้อมูลนักศึกษาคณะเทคโนโลยีและการจัดการอุตสาหกรรม
+  <table id="table1"  datasrc="#student" datapagesize="3">
+  <thead>
+  <tr>
+  <th>รหัส</th><th>ชื่อ</th><th>นามสกุล</th><th>เกรดเฉลี่ยสะสม</th><th>ภาควิชา</th>
+  </tr>
+  </thead>
+  <tr>
+  <td><span datafld="id"></td>
+  <td><span datafld="name"></td>
+  <td><span datafld="lname"></td>
+  <td><span datafld="grade"></td>
+  <td><span datafld="fitm"></td>
+  </tr>
+  </table>
+  <form>
+  <input type="button" value="First" onClick="table1.firstPage()">
+  <input type="button" value="Prev" onClick="table1.previousPage()
+  if(table.recordset.BOF)
+  student.recordset.noveFirst();">
+  <input type="button" value="Next" onClick="table1.nextPage()
+  if(table.recordset.EOF)
+  student.recordset.noveLast();">
+  <input type="button" value="Last" onClick="table1.lastPage()">
+  </form>
+ </body>
+</html>

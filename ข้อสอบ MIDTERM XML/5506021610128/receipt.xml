@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<receipt id="109"
+xmlns ="www.pexam.com/receipt"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="www.pexam.com/receipt reciept.xsd">
+<date>
+<day>29</day>
+<month>07</month>
+<year>2557</year>
+</date>
+
+<address>
+<shop>shop</shop>
+<name>april</name>
+<numberhome>202</numberhome>
+<moo></moo>
+<area>street road</area>
+<tambon>bang pha</tambon>
+<amphor>Muang</amphor>
+<chanwat>Prachinburi</chanwat>
+</address>
+
+
+<item>
+<order>pens</order>
+<price>120</price>
+</item>
+
+<item>
+<order>book</order>
+<price>350</price>
+</item>
+
+<item>
+<order>pen</order>
+<price>14</price>
+</item>
+
+<total>484</total>
+
+
+
+</receipt>

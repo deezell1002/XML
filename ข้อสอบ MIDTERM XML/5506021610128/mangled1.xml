@@ -1,0 +1,55 @@
+<?xml version="4.0" ?>
+<!DOCTYPE addressbook [
+<!ELEMENT addressbook (person)>
+<!ELEMENT person (name,e-mail)>
+<!ELEMENT name (#PCDATA|family|given)*>
+]>
+<addressbook>
+<Person>
+<name>
+<given>Fotis</given>
+<family>kafatos</family>
+</name>
+<e-mail>fotis@embl.de</e-mail>
+</Person>
+
+<person>
+<name>
+<family>Cameron</family>
+<given>Graham</given>
+</name>
+<email>cameron@ebi.ac.uk</email>
+</person>
+
+<person>
+<name>
+<family>Ahburner</family>
+<given>Michael</given>
+</name>
+</person>
+
+<person>
+<name>
+<family>Alan</family>
+<given>Robinson</given>
+</name>
+<e-mail>fotis@ebi.ac.uk</e-mail>
+</person>
+
+<person>
+<name>
+<family>Patricia</family>
+<given>Rodriguez-Tome</family>
+<e-mail>Tome@ebi.ac.uk</e-mail>
+</name>
+
+</person>
+
+<PERSON>
+<NAME>
+<FAMILY>Adams</FAMILY>
+<GIVEN>Gillian</GIVEN>
+</NAME>
+<EMAIL>adams@ebi.ac.uk</EMAIL>
+</PERSON> 
+</addressbook>
